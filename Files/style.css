@@ -61,11 +61,10 @@ body{
     justify-content: center;
     align-items: center;
     
-}
-.header {
-    height: 60vh !important;
-    background: url(Images\Drone-foot.png) no-repeat center;
+    height: 120vh !important;
+    background: url(/Images/Drone-foot.png) no-repeat center;
     background-size: cover;
+
 
 }
 
