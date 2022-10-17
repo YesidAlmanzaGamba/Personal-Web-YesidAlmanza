@@ -1,71 +1,77 @@
-*{
-    margin:o;
-    padding:0;
-    border:0;
-    font-size:100%;
-    vertical-align: baseline;
-}
-body{
-    text-align:center;
-    font-family:sans-serif;
 
-
-}
-
-
-
-
-.head{
+body {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    height: 10%;
-    background: #171717;
-    position: relative;
-    width: 100%;
-    z-index: 100;
-
 }
-
+main{
+    flex-grow: 1;
+    overflow: hidden;
+    font-family:sans-serif;
+}
 
 .navbar{
-    display: flex;
-    margin-right: 10px;
-
-}
-.logo  {
-    margin-left:80px;
-    font-family:brush script mt;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size:45px;
-}
-
-.navbar a{
-    display: block;
-    padding: 23px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size:25px;
-}
-.navbar a:hover { color: #4e4e4e}
-
-.header {
-    display:flex;
-    justify-content: center;
-    align-items: center;
     
-    height: 120vh !important;
-    background: url(/Images/Drone-foot.png) no-repeat center;
-    background-size: cover;
+    height:77px;
+    width:100%;
+    padding: 26px;
+    box-sizing: border-box;
+   
 
 
 }
 
+.collapse {
+    justify-content: flex-end;
+}
+
+.navbar-bar {
+    justify-content: flex-end;
+
+
+}
+ .navbar > .container-fluid {
+
+    height: inherit;
+    
+}
+
+
+
+
+.navbar > .container-fluid >.logo{
+    display: flex;
+    
+    height: inherit;
+    width:auto;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 16px;
+
+
+    color: #fff;
+
+
+}
+
+
+
+
+.navbar > .container-fluid> .logo >img{
+    height: 160%;
+    
+    width: auto;
+    object-fit: cover;
+
+
+
+}
+
+
+.navbar > .container-fluid> .logo >span {
+    margin-left: 20px;
+
+    font-family: "Source Sans Pro";
+    font-size: 50px;
+
+
+}
 

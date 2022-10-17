@@ -5,29 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!- Library of styles and Icons >
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
     <title> Yesid Almanza</title>
+
+
 </head>
 
 
 <body>
-    <div class="head">
-
-        <div class="logo">
-            <a href="#">Yesid Almanza Gamba</a>
-
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
+      </nav>
 
-
-        <nav class="navbar">
-            <a href="#">Bio</a>
-            <a href="#">About me</a>
-            <a href="#">Connect</a>
-            <a href="#">Proyects</a>
-        </nav>
-    </div>
+      
    
     <header class="content-header">
         <h2 Class="Inicio">Inicio</h2>
@@ -49,6 +79,8 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
         </p>
+
+
 
         <div class="box-container">
 
@@ -96,7 +128,7 @@
     </section>
 
 
-    <section class="RAS Uniandes">
+    <section class="RAS">
 
         <article class="contain">
             <h2 class="title">RAS Uniandes</h2>
@@ -119,36 +151,53 @@
     </section>
 
 
-    <section class="content contact">
-        <h2 class>Contacto</h2>
-        <p>+57300430940</p>
-
-    </div>
-
-    <div class="box-container">
-
-        <div class="box">
-            <i class="fab fa-linkedin"> </i>
-
-            <a href="https://www.linkedin.com/in/yesid-camilo-almanza-gamba-390b79253" class="btn">Linkedin</a>
-
-
-        </div>
-
+    
+    <footer>
+        <section class="content contact">
         
-        <div class="box">
-            <i class="fab fa-github"> </i>
-            <a href="https://github.com/YesidAlmanzaGamba" class="btn">Github</a>
+            <h2 class="title">Información de Contacto</h2>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fab fa-linkedin"> </i>
+                <h3>Linkedin</h3>
+    
+                <a href="https://www.linkedin.com/in/yesid-camilo-almanza-gamba-390b79253" class="btn">Linkedin</a>
+    
+    
+            </div>
+    
+            
+            <div class="box">
+                
+                <i class="fab fa-github"> </i>
+                <h3>Github</h3>
+                <a href="https://github.com/YesidAlmanzaGamba" class="btn">Github</a>
+    
+            </div>
+    
+            <div class="box">
+                <i class="fab fa-android"> </i>
+    
+                <h3 >Contacto</h2>
+                <p>+57300430940</p>
+    
+            </div>
+    
+    
+    
+    
+            <figure class="Drone Foot">
+                <img src="\Images\ZetaFin1.png" height="auto" width="100%" alt="drone"> 
+            </figure>
+    
+        
+    
+    
+        </section>
 
-        </div>
-
-
-        <figure class="Drone Foot">
-            <img src="\Images\ZetaFin1.png" height="650 px" width="100%" alt="drone"> 
-        </figure>
-
-
-    </section>
+    </footer>
 
 
     
