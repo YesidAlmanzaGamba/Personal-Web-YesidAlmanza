@@ -198,7 +198,7 @@ main{
       margin: 0;
     }
     mark {
-        background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+        background-image: linear-gradient(rgba(206, 32, 183, 0.6), rgba(218, 28, 161, 0.6));
         background-size: 100% 3px;
         background-repeat: no-repeat;
         background-position: 0 bottom;
@@ -207,7 +207,7 @@ main{
         color: currentColor;
     }
     .theme-color {
-        color: #fc5356;
+        color: #b430b4;
     }
     .dark-color {
         color: #20247b;
@@ -215,6 +215,20 @@ main{
     
 
 
+.proyectos{
+
+  font-size:20px;
+  display:flex;
+  justify-content: center;
+
+}
+
+.P_texto{
+
+    justify-content: center;
+    text-align: center;
+
+}
 
 
 
@@ -287,6 +301,9 @@ main{
     padding: 0 15px;
     font-size: 16px;
 }
+
+
+
 
 
 
@@ -367,12 +384,3 @@ main{
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
   }
-
-  .proyectos{
-
-    font-size:20px;
-    display:flex;
-    justify-content: center;
-
-  }
-
