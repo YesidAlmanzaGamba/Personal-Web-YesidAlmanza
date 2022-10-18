@@ -1,0 +1,199 @@
+*{
+    margin:o;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align: baseline;
+}
+
+html {
+
+    margin:o;
+    padding:0;
+    border:0;
+}
+body{
+    margin:o;
+    padding:0;
+    border:0;
+    text-align:center;
+    font-family:sans-serif;
+
+
+}
+
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    background: #171717;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+
+}
+
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo  {
+    margin-left:120px;
+    font-family:brush script mt;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:170px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:25px;
+}
+.navbar a:hover { color: #4e4e4e}
+
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+
+.header {
+        height: 120vh !important;
+        background: url(/Images/Drone-foot.png) no-repeat center;
+        background-size: cover;
+    }
+
+
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 15rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(58, 57, 57, 0.5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.RAS {
+    background: url(\Images\DroneVerde.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 100px;
+    background: linear-gradient(black, rgb(199, 133, 11));
+    padding-bottom: 0;
+    display: flex;
+
+
+}
+img{
+    object-fit: cover;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+

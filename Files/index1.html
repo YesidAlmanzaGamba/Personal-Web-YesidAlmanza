@@ -12,31 +12,32 @@
     <link rel="stylesheet" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 
     <meta  name="theme-color" content="#49e">
 
 </head>
 <body>
+    
    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark zindex-fixed ">
         <div class="container-fluid">
-            <span class="logo" href="#">
-            <img src="/Images/pngegg.png">
+            <div class="logo" href="#">
+                <img src="/Images/pngegg.png">
 
-            <span>
+                <span>
                 YAL 
-            </span>
+                </span>
 
-        </span>
+            </div>
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav p-1">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 <a class="nav-link" href="#">Proyectos</a>
                 <a class="nav-link" href="#">Contacto</a>
@@ -47,13 +48,252 @@
     </nav>
 
     <main>
-        <section class="Inicio">
-            
-            <img src="/Images/Drone-foot.png" class="img-fluid" alt="...">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="/Images/Drone-foot.png" class="d-block w-100" alt="">
+              </div>
+              
+     
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/Images/DroneFin1.png" class="d-block w-100" alt="...">
+              </div>
+     
+    
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/Images/DroneFin2.png" class="d-block w-100" alt="...">
+              </div>
 
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/Images/Zeta Fin 3.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/Images/Zeta1.png" class="d-block w-100" alt="...">
+              </div>
+     
+     
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="wave"></div>
+
+
+          <section class="section about-section gray-bg" id="about">
+            <div class="container">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="about-text go-to">
+                            <h3 class="dark-color">Acerca de Mi</h3>
+                            <h6 class="theme-color lead">Estudiante de Ingenería electrónica &amp; Ingenería de Sistemas</h6>
+                            <p>Soy  estudiante de <mark>Ingenería electrónica e ingeniería de sitemas</mark> de la Universidad de los Andes, actualmente voy en quinto semestre y tengo experiencia <mark>diseñando y desarrollando</mark> sistemas electrónicos embebidos de alta frecuencia, tengo habilidades en el uso de softwares com: Kicad, Eagle, Altium, Spice, Vscode, PlatformIo y Matlab. Actualmente soy el presidente de la iniciativa estudiantil RAS Uniandes y pertenezco a la Rama Estudiantil de el IEEE en la universidad de los Andes. </p>
+                            <div class="row about-list">
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>Cumpleaños</label>
+                                        <p>8 Enero 2002</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Edad</label>
+                                        <p>20 Años</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Residencia</label>
+                                        <p>Colombia</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Dirección</label>
+                                        <p>Bogotá D.C</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>E-mail </label>
+                                        <p>y.almanza@uniandes.edu.co</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Celular</label>
+                                        <p>+57300430940</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Skype</label>
+                                        <p>skype.0404</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Freelance</label>
+                                        <p>Disponible</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about-avatar">
+                            <img src="\Images\Yo.jpeg" title="" alt="" class="img-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="counter">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="25" data-speed="25">25</h6>
+                                <p class="m-0px font-w-600">Circuitos Impresos (PCB)</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="20" data-speed="20">20</h6>
+                                <p class="m-0px font-w-600">Proyectos Completos</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="7" data-speed="7">7</h6>
+                                <p class="m-0px font-w-600">Lenguajes de Programación</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="count-data text-center">
+                                <h6 class="count h2" data-to="4" data-speed="4">4</h6>
+                                <p class="m-0px font-w-600">Certificados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    
-    
+
+        <section class="Proyectos">
+
+            <div class="row align-items-center flex-row-reverse">
+                <div class="about-text go-to">
+                    <h3 class="dark-color">Proyectos</h3>
+                        <div class="container mx-auto mt-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 24rem;">
+                                <div class="card-body">
+                                    
+                                    <video width="380" height="380" controls>
+                                        <source src="/Images/Drone Video.mp4" autoplay>
+                                    
+                                    </video>
+                                    <h5 class="card-title">Controlador de Vuelo Alfa</h5>
+
+                                
+                                    <h6 class="card-subtitle mb-2 text-muted">Alfa Controller</h6>
+                                        <p class="card-text">Alfa es un sistema electrónico embebido que tiene la finalidad de utilizarse en un enjambre de Drones, tiene que como característica que tiene 2 microcontroladores que trabajan en simultaneo para utilizarse de control y de sensórica.</p>
+
+                                    <div class="buttons">
+                                        <a href="https://instagram.com/ras_uniandes?igshid=YmMyMTA2M2Y=" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
+                                        <a href="https://github.com/YesidAlmanzaGamba" class="btn "><i class="fab fa-github"></i> Github</a>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div>    
+                        <div class="col-md-4">
+
+
+                <div class="card" style="width: 24rem;">
+
+                    
+                    <video width="380" height="380" controls>
+                        <source src="/Images/Zeta-video.mp4" autoplay>
+                    
+                    </video>
+                    <div class="card-body">
+                    <h5 class="card-title">Placa de Desarrollo Zeta </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Zeta Devolpment Board</h6>
+                    <p class="card-text">Zeta es un es un sistema electrónico embebido que tiene la finalidad de utilizarse en cualquier proyecto de electrónico. Actualemente se esta utilizando en 3 proyectos. Un MiniSumo, Seguidor de Linea y un vehículo aéreo no tripulado (UAV).</p>
+                    <div class="buttons">
+                        <a href="#" class="btn  mr-2"><i class="fas fa-link"></i> Visit Site</a>
+                    <a href="#" class="btn"><i class="fab fa-github"></i> Github</a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>    
+                            <div class="col-md-4">
+
+
+                <div class="card" style="width: 24rem;">
+                    <img src="/Images/RAS Logo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Ras Uniandes</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">RAS Uniandes</h6>
+                    <p class="card-text">La iniciativa estudiantil Robotics and Automation Society (RAS) uniandes, es un capítulo
+                        IEEE de la universidad de Los Andes, que tiene como propósito el desarrolló de prototipos
+                        funcionales en el área de robótica implementado conceptos de automatización y control. 
+            
+            
+                    </p>
+                    <div class="buttons">
+                        <a href="https://instagram.com/ras_uniandes?igshid=YmMyMTA2M2Y=" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
+                        <a href="https://github.com/YesidAlmanzaGamba" class="btn "><i class="fab fa-github"></i> Github</a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/yesid-camilo-almanza-gamba-390b79253" role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/YesidAlmanzaGamba" role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
     
     </main>
         
